@@ -165,7 +165,7 @@ git branch -d updates
 git branch -a : Displays list of all branches. Made changes from master on the same line made by very-bad again to merge.
 
 
-Tags:
+(31)Tags:
 Tags are just labels that you can put on any arbitrary commit point git
 Tag Command:
 Light WeightTag: No Associated information about the Tag
@@ -180,7 +180,7 @@ git tag -a v1.0 -m "Release 1.0"
 To display information about the Tag
 git show v1.0
 
-Stashing:
+(32)Stashing:
 Git Stash is used when we donot want to commit change right away and want to commit later and save that changes for later .
 
 Example:
@@ -192,21 +192,32 @@ Apply stash:
 To apply stash and drop the stash after changes are applied use the below command.
  git stash pop
 
- RollBack to Previous Commit:
+(33) RollBack to Previous Commit:
 git reset cedddd  --soft   (Soft reset just changes commit to where Head is pointing . Soft reset is less destructive)
 git reset  --hard cedddf (Hard reset is most desctructive . It wipes out all changes and points to HEAD)
 
-git reflog
+(34)git reflog
 Shows all the different actions taken in the repository. Where as git log shows only commit info.
 
-git remote -v
+(35)git remote -v
 Git responds if there is a remote Repository linked to local Repository
 
 git remote add origin https://github.com/chandragithub2014/GitPractice_May25_2020.git
 
 
-Git Pull: To pull from Origin to the local branch
+(36)Git Pull: To pull from Origin to the local branch
 git pull origin master --allow-unrelated-histories
 
+(37)
 Git Push : To push changes from local master branch to the Remote branch
 git push -u origin master --tags
+
+
+(38) Git Clone
+git clone https://github.com/chandragithub2014/GitPractice_May25_2020.git
+
+To specify local folder name explicitly during  Git Clone :
+
+git clone https://github.com/chandragithub2014/GitPractice_May25_2020.git  MyFolder
+
+Note: By default Project/Files from Remote repository are cloned with default folder name as is in Remote Repository. To Explicitly specify local folder name , the above command to be executed.
