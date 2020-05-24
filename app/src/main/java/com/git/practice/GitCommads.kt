@@ -163,5 +163,5 @@ Merge changes from “updates” branch to “master” branch.
 
 (30) To Delete a branch:
 git branch -d updates
-git branch -a : Displays list of all branches. Made changes in Very-bad branch.
+git branch -a : Displays list of all branches. Made again Changes in the Very-bD
 */
