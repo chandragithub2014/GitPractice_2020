@@ -205,4 +205,16 @@ Git responds if there is a remote Repository linked to local Repository
 
 git remote add origin https://github.com/chandragithub2014/GitPractice_May25_2020.git
 
+
+Git Pull: To pull from Origin to the local branch
+git pull origin master --allow-unrelated-histories
+
+Git Push : To push changes from local master branch to the Remote branch
+git push -u origin master --tags
+
+
+
+
+
+
 */
