@@ -207,7 +207,7 @@ git remote add origin https://github.com/chandragithub2014/GitPractice_May25_202
 
 (36)Git Pull: To pull from Origin to the local branch
 git pull origin master --allow-unrelated-histories
-Pull command will merge the changes from remote to local
+\nPull command will merge the changes from remote to local.
 Fetch command will just get the changes from remote to local , but will not merge.
 To merge we need to use Pull command.
 
