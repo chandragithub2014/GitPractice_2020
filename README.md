@@ -211,8 +211,9 @@ git pull origin master --allow-unrelated-histories
 (37)
 Git Push : To push changes from local master branch to the Remote branch
 git push -u origin master --tags
-
-
+git push origin master 
+Note: origin is  remote branch and master is local branch
+ 
 (38) Git Clone
 git clone https://github.com/chandragithub2014/GitPractice_May25_2020.git
 
