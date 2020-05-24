@@ -194,5 +194,15 @@ To apply stash and drop the stash after changes are applied use the below comman
  git stash pop
 
  RollBack to Previous Commit:
+git reset cedddd  --soft   (Soft reset just changes commit to where Head is pointing . Soft reset is less destructive)
+git reset  --hard cedddf (Hard reset is most desctructive . It wipes out all changes and points to HEAD)
+
+git reflog
+Shows all the different actions taken in the repository. Where as git log shows only commit info.
+
+git remote -v
+Git responds if there is a remote Repository linked to local Repository
+
+git remote add origin https://github.com/chandragithub2014/GitPractice_May25_2020.git
 
 */
