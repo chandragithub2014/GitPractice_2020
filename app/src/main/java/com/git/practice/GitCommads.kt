@@ -192,4 +192,7 @@ AMB01384:GitPractice 245742$ git stash list
 Apply stash:
 To apply stash and drop the stash after changes are applied use the below command.
  git stash pop
+
+ RollBack to Previous Commit:
+
 */
