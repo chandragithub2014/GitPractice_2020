@@ -164,4 +164,8 @@ Merge changes from “updates” branch to “master” branch.
 (30) To Delete a branch:
 git branch -d updates
 git branch -a : Displays list of all branches. Made changes from master on the same line made by very-bad again to merge.
+
+
+Tags:
+Tags are just labels that you can put on any arbitrary commit point git s
 */
