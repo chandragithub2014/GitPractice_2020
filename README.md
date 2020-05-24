@@ -222,3 +222,5 @@ To specify local folder name explicitly during  Git Clone :
 git clone https://github.com/chandragithub2014/GitPractice_May25_2020.git  MyFolder
 
 Note: By default Project/Files from Remote repository are cloned with default folder name as is in Remote Repository. To Explicitly specify local folder name , the above command to be executed.
+
+Changing Read me from Remote
