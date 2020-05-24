@@ -167,5 +167,29 @@ git branch -a : Displays list of all branches. Made changes from master on the s
 
 
 Tags:
-Tags are just labels that you can put on any arbitrary commit point git s
+Tags are just labels that you can put on any arbitrary commit point git
+Tag Command:
+Light WeightTag: No Associated information about the Tag
+git tag myTag
+git tag --list  - Displays list of all Tags
+
+To Delete a Tag:
+git tag -d mytag
+
+Annotated Tag:
+git tag -a v1.0 -m "Release 1.0"
+To display information about the Tag
+git show v1.0
+
+Stashing:
+Git Stash is used when we donot want to commit change right away and want to commit later and save that changes for later .
+
+Example:
+AMB01384:GitPractice 245742$ git stash
+Saved working directory and index state WIP on master: e953595 added info about Tags
+AMB01384:GitPractice 245742$ git stash list
+
+Apply stash:
+To apply stash and drop the stash after changes are applied use the below command.
+ git stash pop
 */
