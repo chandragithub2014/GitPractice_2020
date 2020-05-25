@@ -235,6 +235,14 @@ To push all tags to Github:
  To push a updated Tag Forcibly to Github:
  AMB01384:GitPractice_2020 245742$ git push --force origin unstable
 
+ Difference b/w Releases and Tags:
+ There is no much distinction b/w Releases and Tags.
+ In Releases Tab : All  Tags are displayed
+ In  Tags Tab       : All Tags are displayed along with Release notes for each Tag
+ Creating a Release :
+ In the Tags Tag -> Select any Tag -> Click on 3dots and Create a release by providing release.
+ We can edit a release also once created.
+
 (32)Stashing:
 Git Stash is used when we donot want to commit change right away and want to commit later and save that changes for later .
 
