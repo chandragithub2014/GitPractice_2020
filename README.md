@@ -26,6 +26,8 @@ Git Commands:
 (2) ls -al    —> We can view all files and projects of Git Repository
 
 
+Updated Changes from Remote Branch
+
 
 
 Git States:
