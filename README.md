@@ -263,7 +263,30 @@ ls -l
 Switch to master branch. If you want to merge another branch to master use below command
 git merge feature_local_branch
 
-Update made on Master from Remote .
-Update made before Rebase.
+
+(45)Git Rebase:
+    In Git, the rebase command integrates changes from one branch into another. It is an alternative to the better known "merge" command. Most visibly, rebase differs from merge by rewriting the commit history in order to produce a straight, linear succession of commits.
+    Steps:
+    (1) Make a change to Readme file in master branch from Remote and commit.
+    (2) Make a change to  “abc” file in master branch from local and commit.
+    (3) call git fetch command
+    Displays the below message:
+    Your branch and 'origin/master' have diverged,
+    and have 1 and 1 different commits each, respectively.
+      (use "git pull" to merge the remote branch into yours)
+    (4) calling git pull is okay , but  if we want whatever we are currently working on stays ahead of whatever currently on Github (remote). To do that use rebase with pull as below.
+    (5) git pull —rebase
+    (6) Executing above command gives below result:
+    AMB01384:GitPractice 245742$ git pull --rebase
+    First, rewinding head to replay your work on top of it...
+    Applying: updated MainActivity locally before Rebase
+
+    (7) Type command git log to see the rebase Changes (git log --oneline --graph --decorate --all
+    )
+    The rebase brought in changes from Github and placed before them before our changes we had locally
+
+    (8) Observe that the changes from Github are already updated to your local Readme file.
+    (9) Now push the changes we made on another file in our local Repo.
+
 
 
