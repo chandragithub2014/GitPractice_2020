@@ -258,4 +258,4 @@ ls -l
 Switch to master branch. If you want to merge another branch to master use below command
 git merge feature_local_branch
 
-
+Updating from local Branch
