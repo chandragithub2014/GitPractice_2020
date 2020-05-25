@@ -216,6 +216,9 @@ Git Push : To push changes from local master branch to the Remote branch
 git push -u origin master --tags
 git push origin master 
 Note: origin is  remote branch and master is local branch
+
+To Push a local branch to Remote:
+ git push -u origin feature_local_branch
  
 (38) Git Clone
 git clone https://github.com/chandragithub2014/GitPractice_May25_2020.git
@@ -236,15 +239,11 @@ git remote show origin
 (41) To get information about specific commit : Use git show followed by commit message
 git show 3791f7c26f9d7ae8faff291999fe9fee1a62d237
 
-Changing Read me from Remote
 
-Changing Read me from Feature Branch
-
-Remove a File: Navigate to the path where the file exists and use the below command.
+(42)Remove a File: Navigate to the path where the file exists and use the below command.
 git rm GitInfo.kt 
 
-To see the list of all files in a folder/directory
+(43)To see the list of all files in a folder/directory
 ls -l
 
-To Push a local branch to Remote:
- git push -u origin feature_local_branch
+
