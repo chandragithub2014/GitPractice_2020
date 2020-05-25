@@ -246,4 +246,8 @@ git rm GitInfo.kt
 (43)To see the list of all files in a folder/directory
 ls -l
 
+(44) Merge
+Switch to master branch. If you want to merge another branch to master use below command
+git merge feature_local_branch
+
 
