@@ -233,4 +233,7 @@ git remote set-url origin https://github.com/chandragithub2014/GitPractice_2020.
 (40) To get additional info about remote REpository:
 git remote show origin
 
+(41) To get information about specific commit : Use git show followed by commit message
+git show 3791f7c26f9d7ae8faff291999fe9fee1a62d237
+
 Changing Read me from Remote
