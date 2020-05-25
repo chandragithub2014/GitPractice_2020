@@ -241,7 +241,7 @@ To push all tags to Github:
  In  Tags Tab       : All Tags are displayed along with Release notes for each Tag
  Creating a Release :
  In the Tags Tag -> Select any Tag -> Click on 3dots and Create a release by providing release.
- We can edit a release also once created.
+ We can edit/delete a release also once created.
 
 (32)Stashing:
 Git Stash is used when we donot want to commit change right away and want to commit later and save that changes for later .
