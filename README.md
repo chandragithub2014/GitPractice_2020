@@ -210,6 +210,12 @@ git pull origin master --allow-unrelated-histories
 \nPull command will merge the changes from remote to local.
 Fetch command will just get the changes from remote to local , but will not merge.
 To merge we need to use Pull command.
+git fetch -p
+Where -p is the prune option.
+This command to be used when a feature branch is deleted at Remote and still exists locally.
+The local branch to be deleted using branch delete command. But still we see stale reference of this branch locally.
+In order to remove that stale reference of branch locally we need to use git fetch with Prune option which looks for any dead branches
+and remove those references.
 
 (37)
 Git Push : To push changes from local master branch to the Remote branch
