@@ -351,3 +351,7 @@ Provide expression
 Develop@{3days}
 
 Getting Started Section
+
+Git closing issues through command line
+git commit -am "Updated with excluding temp mac files, close #4"
+Where close #4 is the 4th issue to be closed.
