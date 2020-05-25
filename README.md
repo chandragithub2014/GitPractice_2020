@@ -165,6 +165,11 @@ Merge changes from “updates” branch to “master” branch.
 (30) To Delete a branch:
 git branch -d updates
 git branch -a : Displays list of all branches. Made changes from master on the same line made by very-bad again to merge.
+ Another Version of Delete remote  Branch from local:
+    Once a branch is removed from local and it still exists in Remote.
+    We can remove the branch at remote using below command
+
+    git push origin :feature_remote_branch
 
 
 (31)Tags:
