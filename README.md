@@ -201,6 +201,11 @@ Where a434b4d is commit id
 
 AMB01384:GitPractice_2020 245742$ git tag -a v0.2-alpha -m "Release Alpha " 67cc135
 AMB01384:GitPractice_2020 245742$ git tag -a v0.3-alpha -m "Release Alpha3 " 8bf4de7
+Push Tags to Github:
+
+ git push origin stable
+To push all tags to Github:
+ git push --tags
 
 (32)Stashing:
 Git Stash is used when we donot want to commit change right away and want to commit later and save that changes for later .
