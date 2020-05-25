@@ -8,4 +8,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
+
+    //Updated with New Fun in MainActivity
+    private fun printMsg(){
+        println("updated with new message to print from fun")
+    }
 }
