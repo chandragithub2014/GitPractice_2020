@@ -349,3 +349,5 @@ git merge feature_local_branch
 To Compare Time based comparison in Github
 Provide expression
 Develop@{3days}
+
+Getting Started Section
