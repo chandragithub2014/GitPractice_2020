@@ -239,3 +239,12 @@ git show 3791f7c26f9d7ae8faff291999fe9fee1a62d237
 Changing Read me from Remote
 
 Changing Read me from Feature Branch
+
+Remove a File: Navigate to the path where the file exists and use the below command.
+git rm GitInfo.kt 
+
+To see the list of all files in a folder/directory
+ls -l
+
+To Push a local branch to Remote:
+ git push -u origin feature_local_branch
