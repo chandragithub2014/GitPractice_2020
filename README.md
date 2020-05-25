@@ -226,4 +226,8 @@ git clone https://github.com/chandragithub2014/GitPractice_May25_2020.git  MyFol
 
 Note: By default Project/Files from Remote repository are cloned with default folder name as is in Remote Repository. To Explicitly specify local folder name , the above command to be executed.
 
+(39) Setting Remote Repository URL when Repository name is changed.
+     When a remote repository name is changed (Ex: ABC_Remote  to ABC_REMOTE_REPOSIT) then in order to have local REpository point to the renamed repository use the below command:
+git remote set-url origin https://github.com/chandragithub2014/GitPractice_2020.git
+
 Changing Read me from Remote
