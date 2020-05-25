@@ -226,6 +226,15 @@ To push all tags to Github:
  Deleted tag 'v0.2-alpha' (was c8a04dd)
  AMB01384:GitPractice_2020 245742$ git push origin :v0.2-alpha
 
+ Updating Tags and Pushing in Github:
+
+ To update Existing Tag:
+ To update existing tag to lates commit Id
+ AMB01384:GitPractice_2020 245742$ git tag -f unstable 97cb3ef
+ Updated tag 'unstable' (was c562e0f)
+ To push a updated Tag Forcibly to Github:
+ AMB01384:GitPractice_2020 245742$ git push --force origin unstable
+
 (32)Stashing:
 Git Stash is used when we donot want to commit change right away and want to commit later and save that changes for later .
 
