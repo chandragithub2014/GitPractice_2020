@@ -207,6 +207,25 @@ Push Tags to Github:
 To push all tags to Github:
  git push --tags
 
+ Deleting Tags:
+
+ To Delete a Tag from local that is already deleted in Github:
+ Note: Here v0.1-alpha is already deleted in Github
+ AMB01384:GitPractice_2020 245742$ git tag
+ stable
+ unstable
+ v0.1-alpha
+ v0.2-alpha
+ v0.3-alpha
+ v1.0
+ AMB01384:GitPractice_2020 245742$ git fetch -p
+ AMB01384:GitPractice_2020 245742$ git tag -d v0.1-alpha
+
+ To delete a Tag in Local and push to Github:
+ AMB01384:GitPractice_2020 245742$ git tag -d v0.2-alpha
+ Deleted tag 'v0.2-alpha' (was c8a04dd)
+ AMB01384:GitPractice_2020 245742$ git push origin :v0.2-alpha
+
 (32)Stashing:
 Git Stash is used when we donot want to commit change right away and want to commit later and save that changes for later .
 
