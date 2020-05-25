@@ -230,4 +230,7 @@ Note: By default Project/Files from Remote repository are cloned with default fo
      When a remote repository name is changed (Ex: ABC_Remote  to ABC_REMOTE_REPOSIT) then in order to have local REpository point to the renamed repository use the below command:
 git remote set-url origin https://github.com/chandragithub2014/GitPractice_2020.git
 
+(40) To get additional info about remote REpository:
+git remote show origin
+
 Changing Read me from Remote
