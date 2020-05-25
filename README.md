@@ -186,6 +186,21 @@ Annotated Tag:
 git tag -a v1.0 -m "Release 1.0"
 To display information about the Tag
 git show v1.0
+Examples of Annotated Tags:
+Git tag unstable develop
+This tag “unstable” creates a new tag in develop branch for last commit happened in develop branch
+git tag unstable develop
+
+git tag stable master. (Creates a stable tag on the master branch)
+
+Creating annotated Tag:
+git tag -a v0.1-alpha -m "Release Alpha " a434b4d
+Where a434b4d is commit id
+
+ git show v0.1-alpha
+
+AMB01384:GitPractice_2020 245742$ git tag -a v0.2-alpha -m "Release Alpha " 67cc135
+AMB01384:GitPractice_2020 245742$ git tag -a v0.3-alpha -m "Release Alpha3 " 8bf4de7
 
 (32)Stashing:
 Git Stash is used when we donot want to commit change right away and want to commit later and save that changes for later .
