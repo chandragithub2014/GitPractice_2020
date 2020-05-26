@@ -408,6 +408,11 @@ Time Intervals:
  Followed by
  git gc --prune=now
 
+ Git Squash and Merge:
+ Suppose we made 4 commits and raised pull request for our changes in feature-branch to be merged to  master/development branch.
+ During merging instead of selecting "Merge PullRequest" during code merge ,reviewer can select "Squash and merge option".
+ What happens is all the 4 commits that are made will go as single commit during merge.
+
 
 
 
