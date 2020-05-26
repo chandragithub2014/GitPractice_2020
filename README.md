@@ -355,3 +355,10 @@ Getting Started Section
 Git closing issues through command line
 git commit -am "Updated with excluding temp mac files, close #4"
 Where close #4 is the 4th issue to be closed.
+
+
+Gists:
+Simple Way to share the code.
+Its kind of micro GIT
+
+Ammend Commit Demo
