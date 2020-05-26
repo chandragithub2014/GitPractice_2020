@@ -387,5 +387,11 @@ Step 2 : Create a new file using the below command:
 touch info.txt
 
 
+Step 3 : Use amend command as below
+git commit --amend -m  "added info.tx file as part of ammend command"
+
+Step 4: execute below command and observe the commit id  and observe the previous commit message is not seen as part of history
+git log --oneline
+11bd828 (HEAD -> develop) added info.tx file as part of ammend command
 
 
