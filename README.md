@@ -367,4 +367,14 @@ Example:
 Steps for Amend Commit:
 Step 1 : First do a normal commit
  git commit -am "Fresh Commit on Ammend"
-Step 3:
+Step 2: git log --oneline     (To see the log history of Commits)
+a119e82 (HEAD -> develop) Fresh Commit on Ammend
+Step 3: Execute amend commit command as below with new commit message
+git commit --amend -m "Modified Fresh Commit on Amend"
+Step 4 : git log --oneline
+Observe new commit id is displayed with modified message . Previous commit message is not displayed in History
+f782108 (HEAD -> develop) Modified Fresh Commit on Amend
+
+
+
+
