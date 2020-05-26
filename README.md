@@ -362,7 +362,8 @@ Simple Way to share the code.
 Its kind of micro GIT
 
 Ammend Commit:
-
+amend command is a convenient way to modify the most recent commit.
+Rewriting history of the commit by Changing the Last Commit.
 Example:
 Steps for Amend Commit:
 Step 1 : First do a normal commit
