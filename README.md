@@ -395,4 +395,18 @@ Step 4: execute below command and observe the commit id  and observe the previou
 git log --oneline
 11bd828 (HEAD -> develop) added info.tx file as part of ammend command
 
+Time Intervals:
+ git reflog HEAD@{1.days.ago}
+ git reflog HEAD@{25-05-2020}
+
+ To See Differences:
+ git diff HEAD@{4} HEAD@{5}
+ git diff 8c4bcdf 3d4e111  (Where 8c4bcdf  and 3d4e111  are commit ids)git
+
+ Git reflog to clean up unreachable commits:
+ git reflog expire --expire-unreachable=now --all
+ Followed by
+ git gc --prune=now
+
+
 
