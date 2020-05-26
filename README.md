@@ -361,4 +361,10 @@ Gists:
 Simple Way to share the code.
 Its kind of micro GIT
 
-Ammend Commit Demo Test
+Ammend Commit:
+
+Example:
+Steps for Amend Commit:
+Step 1 : First do a normal commit
+ git commit -am "Fresh Commit on Ammend"
+Step 3:
