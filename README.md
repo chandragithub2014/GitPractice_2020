@@ -408,5 +408,14 @@ Time Intervals:
  Followed by
  git gc --prune=now
 
+ //3985eab (HEAD -> develop) Updated with expire command
+ //Added some info
+
+git commit --amend -m "Updated with expire and GC command info"
+0ba30d8 (HEAD -> develop) Updated with expire and GC command info
+
+
+
+
 
 
