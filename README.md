@@ -367,4 +367,25 @@ Example:
 Steps for Amend Commit:
 Step 1 : First do a normal commit
  git commit -am "Fresh Commit on Ammend"
-Step 3:
+Step 2: git log --oneline     (To see the log history of Commits)
+a119e82 (HEAD -> develop) Fresh Commit on Ammend
+Step 3: Execute amend commit command as below with new commit message
+git commit --amend -m "Modified Fresh Commit on Amend"
+Step 4 : git log --oneline
+Observe new commit id is displayed with modified message . Previous commit message is not displayed in History
+f782108 (HEAD -> develop) Modified Fresh Commit on Amend
+
+Example 2:
+
+Suppose we add a file and we want this file to be part of the last commit instead of new commit.
+Then also we can go for amend commit.
+Step 1: Just capture previous/recent commit id for reference using below command
+git log --oneline
+78eb2d8 (HEAD -> develop, origin/develop, origin/HEAD) Updated with Amend commit info
+
+Step 2 : Create a new file using the below command:
+touch info.txt
+
+
+
+
