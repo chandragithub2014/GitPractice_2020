@@ -4,3 +4,6 @@ Commit # 3  during Squash Activity
 
 
 Commit # 4  during Squash Activity
+
+Commit # 5  during Squash Activity
+
