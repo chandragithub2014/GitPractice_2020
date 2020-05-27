@@ -417,10 +417,8 @@ Time Intervals:
 
 
 
-Changes for Rebase from Develop branch
-Changes for Rebase from Develop branch
 
-
+Changes to Rebase from local Develop Branch
 
 Changes to Readme from Develop Branch Remote for REbase
 
