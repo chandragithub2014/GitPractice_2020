@@ -31,5 +31,17 @@ Local Rebase commit#12 feature-develop-rebase
 Local Rebase commit#13 feature-rebase-develop2
 Local Rebase commit#14 feature-rebase-develop2
 
+<<<<<<< HEAD
 Local Rebase Commit#15 feature-rebase1
 Local Rebase Commit#16 feature-rebase1
+
+Local Rebase commit#20 feature-rebase2
+
+Local Rebase commit#21 feature-rebase2
+
+Local Rebase commit#22 feature-rebase2
+=======
+Local Rebase commit#20 feature-rebase2
+
+Local Rebase commit#21 feature-rebase2
+>>>>>>> d05a7029809ca586371a1198d973ca68d45f9aea
