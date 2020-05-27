@@ -415,3 +415,4 @@ Time Intervals:
  Note: During Squash/merge we need to delete feature branch once merged.
 
 
+Git Rebase from Remote 
