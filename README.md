@@ -415,10 +415,3 @@ Time Intervals:
  Note: During Squash/merge we need to delete feature branch once merged.
 
 
-
-
-
-Changes to Rebase from local Develop Branch
-
-Changes to Readme from Develop Branch Remote for REbase
-
