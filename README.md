@@ -415,13 +415,6 @@ Time Intervals:
  Note: During Squash/merge we need to delete feature branch once merged.
 
 
-
-
-
-MAde chages to Develop#1
-
-Changes for Rebase from Develop branch
-
-
+Git Rebase from Remote 
 
 
