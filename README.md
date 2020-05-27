@@ -414,4 +414,4 @@ Time Intervals:
  What happens is all the 4 commits that are made will go as single commit during merge.
  Note: During Squash/merge we need to delete feature branch once merged.
 
-
+Commit #1 from develop for rebase
